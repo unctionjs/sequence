@@ -1,5 +1,5 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/sequence",
   "version": "1.0.0",
   "description": "",
   "keywords": [
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/sequence#readme",
+  "repository": "github:unctionjs/sequence",
+  "bugs": "https://github.com/unctionjs/sequence/issues",
   "main": "transpiled/index.js",
   "files": [
     "transpiled/index.js"
@@ -59,6 +59,7 @@
     "tap": "10.7.2"
   },
   "dependencies": {
-    "ramda": "0.24.1"
+    "@unction/mapvalues": "3.5.0",
+    "@unction/thrush": "2.3.0"
   }
 }
