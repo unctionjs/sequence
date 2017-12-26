@@ -61,7 +61,7 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "@unction/mapvalues": "3.48.0",
+    "@unction/mapvalues": "4.0.0",
     "@unction/thrush": "2.8.0"
   }
 }
