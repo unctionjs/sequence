@@ -62,6 +62,6 @@
   },
   "dependencies": {
     "@unction/mapvalues": "4.0.0",
-    "@unction/thrush": "2.8.0"
+    "@unction/thrush": "3.0.0"
   }
 }
