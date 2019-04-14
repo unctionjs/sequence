@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/sequence#readme",
   "repository": "github:unctionjs/sequence",
   "bugs": "https://github.com/unctionjs/sequence/issues",
-  "main": "transpiled/main.js",
+  "main": "main.js",
   "files": [
     "index.js",
     "main.js",
@@ -69,5 +69,5 @@
     "@unction/thrush": "3.0.0"
   },
   "module": "index.js",
-  "browser": "transpiled/browser.js"
+  "browser": "browser.js"
 }
