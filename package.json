@@ -65,8 +65,8 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/mapvalues": "10.5.0",
-    "@unction/thrush": "4.2.0"
+    "@unction/mapvalues": "10.6.0",
+    "@unction/thrush": "4.2.1"
   },
   "module": "module.js",
   "browser": "browser.js"
