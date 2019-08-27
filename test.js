@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import {test} from "tap";
 
-import sequence from "./index";
+import sequence from "./";
 
 const increment = (value) => value + 1;
 const decrement = (value) => value - 1;
