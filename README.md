@@ -4,10 +4,11 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> ArrayType<MapFunctionType> => mixed => ArrayType
-> SetType<MapFunctionType> => mixed => SetType
-> ObjectType<ObjectKeyType, MapFunctionType> => mixed => ObjectType
-> MapType<MapKeyType, MapFunctionType> => mixed => MapType
+> EnumerableType<MapperFunctionType<A, B>> => A => EnumerableType<B>
+> Array<MapperFunctionType<A, B>> => A => Array<B>
+> Set<MapperFunctionType<A, B>> => A => Set<B>
+> ObjectType<unknown, MapperFunctionType<A, B>> => A => ObjectType<unknown, B>
+> Map<unknown, MapperFunctionType<A, B>> => A => Map<unknown, B>
 
 Takes a list of functions, a value, and applies that value to each function, returning an array of results.
 

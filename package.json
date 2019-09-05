@@ -19,7 +19,7 @@
   "bugs": "https://github.com/unctionjs/sequence/issues",
   "main": "main.js",
   "files": [
-    "index.js",
+    "index.ts",
     "main.js",
     "main.js.map",
     "browser.js",
@@ -71,5 +71,6 @@
     "@unction/thrush": "4.2.1"
   },
   "module": "module.js",
-  "browser": "browser.js"
+  "browser": "browser.js",
+  "types": "types.d.ts"
 }
