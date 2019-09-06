@@ -6,19 +6,19 @@ const decrement = (value) => value - 1;
 const itself = (value) => value;
 
 
-test(() => {
+test("works", () => {
   expect(sequence([increment, decrement])(1)).toEqual([2, 0]);
 });
 
-test(() => {
+test("works", () => {
   expect(sequence(new Set([increment, decrement]))(1)).toEqual(new Set([2, 0]));
 });
 
-test(() => {
+test("works", () => {
   expect(sequence(new Map([["a", increment], ["b", decrement]]))(1)).toEqual(new Map([["a", 2], ["b", 0]]));
 });
 
-test(() => {
+test("works", () => {
   expect(sequence({
     xxx: increment,
     yyy: decrement,
