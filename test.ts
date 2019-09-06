@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import sequence from "./index.ts";
+import sequence from "./index";
 
 const increment = (value) => value + 1;
 const decrement = (value) => value - 1;
