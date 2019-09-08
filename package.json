@@ -60,7 +60,7 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/mapvalues": "10.8.0",
+    "@unction/mapvalues": "10.9.0",
     "@unction/thrush": "4.2.2"
   },
   "module": "module.js",
