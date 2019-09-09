@@ -59,8 +59,8 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/mapvalues": "10.9.0",
-    "@unction/thrush": "4.2.2"
+    "@unction/mapvalues": "10.10.0",
+    "@unction/thrush": "4.2.3"
   },
   "module": "module.js",
   "browser": "browser.js",
