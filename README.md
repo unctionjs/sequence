@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> EnumerableType<MapperFunctionType<A, B>> => A => Array<B> | Set<B> | RecordType<B, unknown> | string
+> Array<MapperFunctionType<A, B>> | Set<MapperFunctionType<A, B>> | Record<string | number | symbol, MapperFunctionType<A, B>> | Map<unknown, MapperFunctionType<A, B>> => A => Array<B> | Set<B> | Record<string | number | symbol, unknown> | Map<B, unknown> | string
 > Array<MapperFunctionType<A, B>> => A => Array<B>
 > Set<MapperFunctionType<A, B>> => A => Set<B>
 > ObjectType<unknown, MapperFunctionType<A, B>> => A => ObjectType<unknown, B>
